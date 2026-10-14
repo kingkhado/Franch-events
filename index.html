@@ -145,6 +145,11 @@ section{padding-block:clamp(72px,10vw,128px)}
 .work .label{color:var(--muted);font-size:11px}
 .work h3{font-size:24px}
 @media (max-width:760px){.work{grid-template-columns:1fr}}
+.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(12px,1.6vw,20px);margin-top:clamp(16px,2.5vw,32px)}
+.gallery figure{margin:0;position:relative}
+.gallery img{width:100%;aspect-ratio:1/1;object-fit:cover;background:var(--paper-2)}
+.gallery figcaption{margin-top:10px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+@media (max-width:620px){.gallery{grid-template-columns:1fr 1fr}}
 
 /* booth reel */
 .reel{background:var(--ink);color:var(--paper)}
@@ -280,7 +285,7 @@ footer{background:var(--ink);color:var(--paper);padding-block:64px 36px}
   </div>
 
   <figure class="band" style="margin:0">
-    <img src="booth-setup-cars.jpg" alt="The Franch Events 360° booth set up with red carpet and LED stanchions beside two green sports cars at an evening event">
+    <img src="hero-booth-night.jpg" alt="The Franch Events 360 booth lit up beside two green sports cars at an evening event">
     <figcaption>On set, Gauteng</figcaption>
   </figure>
 
@@ -325,7 +330,7 @@ footer{background:var(--ink);color:var(--paper);padding-block:64px 36px}
 
   <section>
     <div class="wrap incl">
-      <img src="cleo-50th-booth.jpg" alt="The 360° booth setup at Cleo's 50th birthday: red carpet, silver stanchions with red ropes and LED bars">
+      <img src="setup-led-walkway.jpg" alt="The 360 booth on a black carpet walkway with LED bars and stanchions inside a decorated venue">
       <div class="incl-list">
         <span class="label" style="color:var(--muted);display:block;margin-bottom:18px">The 360° set-up</span>
         <h3>Included with every booth booking</h3>
@@ -350,9 +355,16 @@ footer{background:var(--ink);color:var(--paper);padding-block:64px 36px}
         <p>A few recent events we&rsquo;ve covered. More on Instagram at @franch_enterprises.</p>
       </div>
       <div class="work">
-        <figure><img src="leneve-matric-dance.jpg" alt="Leneve in a black gown beside a white car on her matric dance day"><figcaption><span class="label">Shot &amp; edited</span><h3>Leneve&rsquo;s Matric Dance &rsquo;25</h3></figcaption></figure>
-        <figure><img src="haskins-anniversary.jpg" alt="A couple seated on stone steps for their anniversary shoot"><figcaption><span class="label">Shot &amp; edited</span><h3>The Haskins&rsquo; Anniversary</h3></figcaption></figure>
-        <figure><img src="cleo-50th-booth.jpg" alt="Red carpet and LED stanchions leading to the 360° booth at a 50th birthday"><figcaption><span class="label">360° capture + videography</span><h3>Cleo&rsquo;s 50th Birthday</h3></figcaption></figure>
+        <figure><img src="work-matric-dance.jpg" alt="A matric dance guest in a black gown beside a white car"><figcaption><span class="label">Shot &amp; edited</span><h3>Leneve&rsquo;s Matric Dance &rsquo;25</h3></figcaption></figure>
+        <figure><img src="work-anniversary.jpg" alt="A couple seated on stone steps for their anniversary shoot"><figcaption><span class="label">Shot &amp; edited</span><h3>The Haskins&rsquo; Anniversary</h3></figcaption></figure>
+        <figure><img src="work-50th-booth.jpg" alt="Red carpet, fountain and the 360 booth set up in a garden for a 50th birthday"><figcaption><span class="label">360° capture + videography</span><h3>Cleo&rsquo;s 50th Birthday</h3></figcaption></figure>
+      </div>
+
+      <div class="gallery">
+        <figure><img src="gallery-branded-booth.jpg" alt="The branded Franch Events 360 booth platform on a red carpet at a venue entrance" loading="lazy"><figcaption>Branded booth platform</figcaption></figure>
+        <figure><img src="gallery-balloon-entrance.jpg" alt="A matric dance entrance with a balloon arch, red carpet and the 360 booth" loading="lazy"><figcaption>Matric dance entrance</figcaption></figure>
+        <figure><img src="gallery-welcome-stand.jpg" alt="Red carpet with gold stanchions and a welcome stand at an event entrance" loading="lazy"><figcaption>Red carpet arrivals</figcaption></figure>
+        <figure><img src="gallery-booth-green-car.jpg" alt="The 360 booth with a ring light set up beside a green sports car at night" loading="lazy"><figcaption>Evening set-up</figcaption></figure>
       </div>
     </div>
   </section>
@@ -476,7 +488,6 @@ footer{background:var(--ink);color:var(--paper);padding-block:64px 36px}
         <div class="direct">
           <a href="tel:+27614391805" class="row"><span>Call</span><span>061 439 1805</span></a>
           <a href="https://wa.me/27614391805" target="_blank" rel="noopener" class="row"><span>WhatsApp</span><span>061 439 1805</span></a>
-          <a href="tel:+27614391806" class="row"><span>Alternative line</span><span>061 439 1806</span></a>
           <a href="mailto:franch.kickz@gmail.com" class="row"><span>Email</span><span>franch.kickz@gmail.com</span></a>
           <a href="https://www.instagram.com/franch_enterprises/" target="_blank" rel="noopener" class="row"><span>Instagram</span><span>@franch_enterprises</span></a>
         </div>
@@ -517,7 +528,6 @@ footer{background:var(--ink);color:var(--paper);padding-block:64px 36px}
         <h4>Contact</h4>
         <a href="tel:+27614391805">Call 061 439 1805</a><br>
         <a href="https://wa.me/27614391805" target="_blank" rel="noopener">WhatsApp 061 439 1805</a><br>
-        <a href="tel:+27614391806">Alt 061 439 1806</a><br>
         <a href="mailto:franch.kickz@gmail.com">franch.kickz@gmail.com</a><br>
         <a href="https://www.instagram.com/franch_enterprises/" target="_blank" rel="noopener">Instagram</a>
       </div>
